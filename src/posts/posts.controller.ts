@@ -25,7 +25,7 @@ import {
     constructor(private readonly postsService: PostsService) {}
   
     // 1) Homepage: list feed
-    @Get()
+    @Get('feeds')
     getFeed() {
       return this.postsService.findFeed();
     }

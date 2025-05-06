@@ -19,7 +19,7 @@ async function bootstrap() {
 
   // 4) Swagger setup
   const config = new DocumentBuilder()
-    .setTitle('TravelAI Posts API')
+    .setTitle('TravelAI APIs')
     .setDescription('CRUD + media uploads')
     .setVersion('1.0')
     .build();
