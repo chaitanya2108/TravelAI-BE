@@ -6,6 +6,8 @@ import { ConfigModule } from '@nestjs/config';
 import { UserModule } from './user/user.module';
 import { AuthModule } from './auth/auth.module';
 import { PostModule } from './post/post.module';
+import { ItineraryModule } from './itinerary/itinerary.module';
+import { DiscoverModule } from './discover/discover.module';
 
 @Module({
   imports: [
@@ -25,6 +27,8 @@ import { PostModule } from './post/post.module';
     UserModule,
     AuthModule,
     PostModule,
+    ItineraryModule,
+    DiscoverModule,
   ],
   controllers: [AppController],
   providers: [AppService],
