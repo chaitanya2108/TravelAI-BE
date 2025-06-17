@@ -22,8 +22,10 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
+This is a smart travel itinerary app that uses artificial intelligence to help users automatically plan personalized travel experiences. By analyzing user preferences, travel goals, budget, and destination details, the AI recommends optimized daily plans, attractions, food spots, transportation routes, and weather-conscious activities. 
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+
 
 ## Project setup
 
